@@ -1,0 +1,30 @@
+.listing {
+    &__img {
+        height: 650px;
+        width: 50%;
+        object-fit: cover;
+        border-radius: 30px;
+        float: right;
+    }
+    &__description {
+        font-size: 24pt;
+        margin-bottom: 15px;
+        &-heading {
+            font-size: 48pt;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        &-shop, &-location, &-price {
+            margin-bottom: 15px; 
+            font-size: 36pt;
+        }
+    }
+}
+@media (max-width: 1024px) {
+    .listing {
+        &__img {
+            width: 100%;
+            height: 400px;
+        }
+    }
+}

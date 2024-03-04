@@ -1,0 +1,13 @@
+<article class="listing">
+  <img
+    class="listing__img"
+    [src]="itemCard?.photo"
+    alt="photo of {{ itemCard?.name }}"
+  />
+  <section class="listing__description">
+    <h2 class="listing__description-heading">{{ itemCard?.name }}</h2>
+    <p class="listing__description-shop">Продавец: {{ itemCard?.shop }}</p>
+    <p class="listing__description-location">Страна происхождения: {{ itemCard?.country }}</p>
+    <p class="listing__description-price">Цена: {{ itemCard?.price }} ₽ /шт.</p>
+  </section>
+</article>

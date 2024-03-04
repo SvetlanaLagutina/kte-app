@@ -1,0 +1,21 @@
+<main>
+  <nav>
+    <section class="top-bar">
+      <a [routerLink]="['/']">
+        <header class="brand-name">
+          <h1>{{ title }}</h1>
+        </header>
+      </a>
+      <button
+        pButton
+        label="Создать новый"
+        type="button"
+        [routerLink]="['/create']"
+      ></button>
+    </section>
+  </nav>
+
+  <section class="content">
+    <router-outlet></router-outlet>
+  </section>
+</main>

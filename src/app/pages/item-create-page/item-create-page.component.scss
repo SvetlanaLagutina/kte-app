@@ -1,0 +1,29 @@
+:host {
+    background: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    .form-block {
+        .form-block__item {
+            display: flex;
+            margin: 20px 0;
+            flex-direction: column;
+            input {
+                padding: 0.75rem;
+                margin: 15px 0;
+            }
+            span.required {
+                color: red;
+                font-weight: 600;
+            }
+        }
+        button {
+            padding: 10px;
+            border: solid 1px var(--primary-color);
+            background: var(--primary-color);
+            color: white;
+            border-radius: 8px;
+        }
+    }
+}

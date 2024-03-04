@@ -1,0 +1,29 @@
+<section
+  class="listing"
+  *ngFor="let item of itemList"
+>
+  <div class="photo">
+    <img
+      class="listing-photo"
+      [src]="item.photo"
+      alt="photo of {{ item.name }}"
+    />
+  </div>
+  <div class="listing-info">
+    <a
+      class="listing-heading"
+      [routerLink]="['/details', item.id]"
+    >
+      {{ item.name }}
+    </a>
+    <p class="listing-shop">Продавец: {{ item.shop }}</p>
+    <p class="listing-location">Страна происхождения: {{ item.country }}</p>
+    <p class="listing-price">Цена: {{ item.price }} ₽ /шт.</p>
+    <button
+      pButton
+      label="Подробнее"
+      type="button"
+      [routerLink]="['/details', item.id]"
+    ></button>
+  </div>
+</section>

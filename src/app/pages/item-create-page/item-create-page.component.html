@@ -1,0 +1,75 @@
+<div class="form-title">
+  <h2>Создать новый элемент</h2>
+</div>
+<div class="form-block">
+  <form
+    [formGroup]="form"
+    class="col"
+    (ngSubmit)="submit()"
+  >
+    <div class="form-block__item">
+      <label> Номер <span class="required">*</span></label>
+      <input
+        pInputText
+        formControlName="id"
+        type="text"
+      />
+      <field-error fieldName="id"></field-error>
+    </div>
+    <div class="form-block__item">
+      <label> Название <span class="required">*</span></label>
+      <input
+        pInputText
+        formControlName="name"
+        type="text"
+      />
+      <field-error fieldName="name"></field-error>
+    </div>
+    <div class="form-block__item">
+      <label> Страна происхождения <span class="required">*</span></label>
+      <input
+        pInputText
+        formControlName="country"
+        type="text"
+      />
+      <field-error fieldName="country"></field-error>
+    </div>
+
+    <div class="form-block__item">
+      <label> Магазин <span class="required">*</span></label>
+      <input
+        pInputText
+        formControlName="shop"
+        type="text"
+      />
+      <field-error fieldName="shop"></field-error>
+    </div>
+
+    <div class="form-block__item">
+      <label> Ссылка на фото <span class="required">*</span></label>
+      <input
+        pInputText
+        formControlName="photo"
+        type="text"
+      />
+      <field-error fieldName="photo"></field-error>
+    </div>
+
+    <div class="form-block__item">
+      <label> Цена <span class="required">*</span></label>
+      <input
+        pInputText
+        formControlName="price"
+        type="text"
+      />
+      <field-error fieldName="price"></field-error>
+    </div>
+    <button
+      pButton
+      label="Создать"
+      type="submit"
+      class="p-button-accent p-button-lg"
+      [disabled]="form.invalid"
+    ></button>
+  </form>
+</div>
