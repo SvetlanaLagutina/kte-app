@@ -1,27 +1,25 @@
-# KteApp
+Написать приложение-каталог. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+Реализовать страницы: 
 
-## Development server
+1. Список items 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. Страница детальной информации item (переход на эту страницу осуществляется при клике на название item'а на странице "Список items") 
 
-## Code scaffolding
+3. Страница добавления нового item в список items. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Обязательно использовать технологии: 
 
-## Build
+Lazy loading modules; 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Получение данных по http; 
 
-## Running unit tests
+Scss, вёрстка на flexbox'ах с применением методологии БЭМ; 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Reactive forms + custom validation (на странице создания нового item); 
 
-## Running end-to-end tests
+По возможности использовать: 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+RxJS; 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Angular material + theming angular material; 
