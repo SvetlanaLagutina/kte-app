@@ -1,0 +1,84 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "Ноутбук игровой Thunderobot 911 M G2 Pro 7 JT009U00DRU",
+      "country": "Germany",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Big/400135846bb.jpg",
+      "price": "99 999"
+    },
+    {
+      "id": 1,
+      "name": "Ноутбук HUAWEI MateBook D 16 i5 12450H/16/512Gb DOS Space Gray",
+      "country": "China",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Pdb/400243953b.jpg",
+      "price": "73 999"
+    },
+    {
+      "id": 2,
+      "name": "Ноутбук ASUS M515DA-EJ1697",
+      "country": "Germany",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Big/400233585bb.jpg",
+      "price": "37 999"
+    },
+    {
+      "id": 3,
+      "name": "Ноутбук Apple MacBook Air 13 M1/8/256 Space Gray (MGN63)",
+      "country": "France",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Pdb/30064273b.jpg",
+      "price": "95 999"
+    },
+    {
+      "id": 4,
+      "name": "Ноутбук игровой MSI Katana GF76 11UC-887XRU",
+      "country": "Germany",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Pdb/30066469b.jpg",
+      "price": "69 999"
+    },
+    {
+      "id": 5,
+      "name": "Ноутбук HUAWEI MateBook D 15 i5 1155G7/8/256Gb Space Gray",
+      "country": "Germany",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Big/30067682bb.jpg",
+      "price": "54 999"
+    },
+    {
+      "id": 6,
+      "name": "Ноутбук HONOR Magicbook 15 R5 5500U/16/512Gb DOS Space Gray 5301AFVQ",
+      "country": "China",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Big/400260389bb.jpg",
+      "price": "54 999"
+    },
+    {
+      "id": 7,
+      "name": "Ноутбук HUAWEI MateBook D16 RLEF-X i5/16GB/512GB Space Gray",
+      "country": "Germany",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Pdb/30066686b.jpg",
+      "price": "79 999"
+    },
+    {
+      "id": 8,
+      "name": "Ноутбук HONOR MagicBook X 15 i5/8/512GB Space Grey (BDR-WDH)",
+      "country": "France",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Big/400106660bb.jpg",
+      "price": "56 999"
+    },
+    {
+      "id": 9,
+      "name": "Ноутбук для бизнеса Lenovo V14 G2 ITL 82KA00KNUS",
+      "country": "France",
+      "shop": "Сити-электроникс",
+      "photo": "https://img.mvideo.ru/Big/30065768bb.jpg",
+      "price": "39 999"
+    }
+  ]
+}
