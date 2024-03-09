@@ -1,6 +1,6 @@
 <section
   class="listing"
-  *ngFor="let item of itemList"
+  *ngFor="let item of itemList$ | async"
 >
   <div class="photo">
     <img
@@ -26,4 +26,9 @@
       [routerLink]="['/details', item.id]"
     ></button>
   </div>
+  <p-messages
+    [value]="msgs"
+    [showTransitionOptions]="'500ms'"
+    [hideTransitionOptions]="'500ms'"
+  ></p-messages>
 </section>

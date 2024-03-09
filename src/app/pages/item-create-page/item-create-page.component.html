@@ -8,16 +8,7 @@
     (ngSubmit)="submit()"
   >
     <div class="form-block__item">
-      <label> Номер <span class="required">*</span></label>
-      <input
-        pInputText
-        formControlName="id"
-        type="text"
-      />
-      <field-error fieldName="id"></field-error>
-    </div>
-    <div class="form-block__item">
-      <label> Название <span class="required">*</span></label>
+      <label for="name"> Название <span class="required">*</span></label>
       <input
         pInputText
         formControlName="name"
@@ -26,7 +17,7 @@
       <field-error fieldName="name"></field-error>
     </div>
     <div class="form-block__item">
-      <label> Страна происхождения <span class="required">*</span></label>
+      <label for="country"> Страна происхождения <span class="required">*</span></label>
       <input
         pInputText
         formControlName="country"
@@ -36,7 +27,7 @@
     </div>
 
     <div class="form-block__item">
-      <label> Магазин <span class="required">*</span></label>
+      <label for="shop"> Магазин <span class="required">*</span></label>
       <input
         pInputText
         formControlName="shop"
@@ -46,7 +37,7 @@
     </div>
 
     <div class="form-block__item">
-      <label> Ссылка на фото <span class="required">*</span></label>
+      <label for="photo"> Ссылка на фото <span class="required">*</span></label>
       <input
         pInputText
         formControlName="photo"
@@ -56,7 +47,7 @@
     </div>
 
     <div class="form-block__item">
-      <label> Цена <span class="required">*</span></label>
+      <label for="price"> Цена <span class="required">*</span></label>
       <input
         pInputText
         formControlName="price"

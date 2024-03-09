@@ -26,7 +26,6 @@ import { PortalItemsApi } from '@shared/api';
 })
 export class ItemCreatePageComponent {
   form = new FormGroup({
-    id: new FormControl<string>('', [Validators.required]),
     name: new FormControl<string>('', [Validators.required, Validators.maxLength(255)]),
     country: new FormControl<string>('', [Validators.required, Validators.maxLength(255)]),
     shop: new FormControl<string>('', [Validators.required, Validators.maxLength(255)]),

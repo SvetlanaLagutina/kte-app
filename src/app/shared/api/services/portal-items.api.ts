@@ -2,15 +2,15 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { PortalItemCreate } from 'src/app/models/portal-item-create';
-import { PortalDataCard } from 'src/app/models/portal-data-card';
+import { PortalDataCardDto } from '../models/portal-data-card.dto';
 
 @Injectable({ providedIn: 'root' })
 export class PortalItemsApi {
   constructor(private _http: HttpClient) {}
   configUrl: string = '/assets/db.json';
 
-  getList(): Observable<PortalDataCard> {
-    return this._http.get<PortalDataCard>(this.configUrl);
+  getList(): Observable<PortalDataCardDto> {
+    return this._http.get<PortalDataCardDto>(this.configUrl);
   }
 
   create(model: PortalItemCreate): Observable<PortalItemCreate> {

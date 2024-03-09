@@ -39,6 +39,4 @@ export class AppComponent implements OnInit {
 
     return titles;
   }
-
-  create(): void {}
 }

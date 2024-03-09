@@ -1,4 +1,5 @@
-export interface PortalItemCreate {
+export interface PortalItemDto {
+  id: number;
   name: string;
   country: string;
   shop: string;
